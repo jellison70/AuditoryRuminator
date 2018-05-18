@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F03085A208517EA009E1A4D /* StoredResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F030859208517EA009E1A4D /* StoredResultsViewController.swift */; };
+		6F03085C208545C8009E1A4D /* InstructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F03085B208545C8009E1A4D /* InstructViewController.swift */; };
+		6F40A96A20AA53B900C8ECA6 /* 3k_sine_m6db_ramp_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F40A96620AA53B900C8ECA6 /* 3k_sine_m6db_ramp_24bit.wav */; };
+		6F40A96B20AA53B900C8ECA6 /* 2k_sine_m6db_ramp_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F40A96720AA53B900C8ECA6 /* 2k_sine_m6db_ramp_24bit.wav */; };
+		6F40A96C20AA53B900C8ECA6 /* 1k_sine_m6db_ramp_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F40A96820AA53B900C8ECA6 /* 1k_sine_m6db_ramp_24bit.wav */; };
+		6F40A96D20AA53B900C8ECA6 /* 4k_sine_m6db_ramp_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F40A96920AA53B900C8ECA6 /* 4k_sine_m6db_ramp_24bit.wav */; };
+		6F40A97A20AA723300C8ECA6 /* warble3k_pulse_ramp_0p45s_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F40A97620AA723200C8ECA6 /* warble3k_pulse_ramp_0p45s_24bit.wav */; };
+		6F40A97B20AA723300C8ECA6 /* warble4k_pulse_ramp_0p45s_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F40A97720AA723300C8ECA6 /* warble4k_pulse_ramp_0p45s_24bit.wav */; };
+		6F40A97C20AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F40A97820AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav */; };
+		6F40A97D20AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F40A97920AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav */; };
+		6F40AFC8207EF0D700B04E4E /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F40AFC7207EF0D700B04E4E /* IntroViewController.swift */; };
+		6F612F9C20A9E72B00D3DAB1 /* CalibrationData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F612F9A20A9E72B00D3DAB1 /* CalibrationData+CoreDataClass.swift */; };
+		6F612F9D20A9E72B00D3DAB1 /* CalibrationData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F612F9B20A9E72B00D3DAB1 /* CalibrationData+CoreDataProperties.swift */; };
+		6F826F75207EF87C0006F0CF /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F826F74207EF87C0006F0CF /* InputViewController.swift */; };
+		6F8AA901208E98F80096BD78 /* NewResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA900208E98F80096BD78 /* NewResultsViewController.swift */; };
+		6F8AA927208FECD40096BD78 /* Self Assessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA925208FECD40096BD78 /* Self Assessment.xcdatamodeld */; };
+		6F8AA93320912B970096BD78 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA93220912B970096BD78 /* PersistenceService.swift */; };
+		6F8AA96F20937C4D0096BD78 /* CurrentTest+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA96D20937C4C0096BD78 /* CurrentTest+CoreDataClass.swift */; };
+		6F8AA97020937C4D0096BD78 /* CurrentTest+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA96E20937C4D0096BD78 /* CurrentTest+CoreDataProperties.swift */; };
+		6F8AA9B62098D2380096BD78 /* SavedResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA9B52098D2380096BD78 /* SavedResultsViewController.swift */; };
+		6F8EFE7F207807CA00FB6AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EFE7E207807CA00FB6AFD /* AppDelegate.swift */; };
+		6F8EFE84207807CA00FB6AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8EFE82207807CA00FB6AFD /* Main.storyboard */; };
+		6F8EFE86207807CC00FB6AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8EFE85207807CC00FB6AFD /* Assets.xcassets */; };
+		6F8EFE89207807CC00FB6AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8EFE87207807CC00FB6AFD /* LaunchScreen.storyboard */; };
+		6F8EFE912078087B00FB6AFD /* CalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EFE902078087B00FB6AFD /* CalViewController.swift */; };
+		6F8EFE93207816AE00FB6AFD /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EFE92207816AE00FB6AFD /* TestViewController.swift */; };
+		6FB3820320A38E7D00AF59EE /* warble1k_ramp_1p2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6FB3820220A38E7C00AF59EE /* warble1k_ramp_1p2.wav */; };
+		6FB3820520A4CE6700AF59EE /* CalibrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3820420A4CE6700AF59EE /* CalibrationViewController.swift */; };
+		6FF41D74207FF1FD005500D7 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D73207FF1FD005500D7 /* PositionViewController.swift */; };
+		6FF41D7620800E15005500D7 /* Test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D7520800E15005500D7 /* Test1ViewController.swift */; };
+		6FF41D78208011A6005500D7 /* Test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D77208011A6005500D7 /* Test2ViewController.swift */; };
+		6FF41D7A208011B3005500D7 /* Test3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D79208011B3005500D7 /* Test3ViewController.swift */; };
+		6FF41D7C208011C3005500D7 /* Test4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D7B208011C3005500D7 /* Test4ViewController.swift */; };
+		6FF41D7E2080135D005500D7 /* Test5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D7D2080135D005500D7 /* Test5ViewController.swift */; };
+		6FF41D802080136B005500D7 /* Test6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D7F2080136B005500D7 /* Test6ViewController.swift */; };
+		6FF41D8220801377005500D7 /* Test7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D8120801377005500D7 /* Test7ViewController.swift */; };
+		8A5839F78A15DE8B839E46AC /* Pods_Self_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89449525594BC651AC12304 /* Pods_Self_Assessment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B9D1ADC286784E51CA45C78 /* Pods-Self Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self Assessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Self Assessment/Pods-Self Assessment.debug.xcconfig"; sourceTree = "<group>"; };
+		6F030859208517EA009E1A4D /* StoredResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredResultsViewController.swift; sourceTree = "<group>"; };
+		6F03085B208545C8009E1A4D /* InstructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructViewController.swift; sourceTree = "<group>"; };
+		6F40A96620AA53B900C8ECA6 /* 3k_sine_m6db_ramp_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3k_sine_m6db_ramp_24bit.wav; sourceTree = "<group>"; };
+		6F40A96720AA53B900C8ECA6 /* 2k_sine_m6db_ramp_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2k_sine_m6db_ramp_24bit.wav; sourceTree = "<group>"; };
+		6F40A96820AA53B900C8ECA6 /* 1k_sine_m6db_ramp_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1k_sine_m6db_ramp_24bit.wav; sourceTree = "<group>"; };
+		6F40A96920AA53B900C8ECA6 /* 4k_sine_m6db_ramp_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4k_sine_m6db_ramp_24bit.wav; sourceTree = "<group>"; };
+		6F40A97620AA723200C8ECA6 /* warble3k_pulse_ramp_0p45s_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble3k_pulse_ramp_0p45s_24bit.wav; sourceTree = "<group>"; };
+		6F40A97720AA723300C8ECA6 /* warble4k_pulse_ramp_0p45s_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble4k_pulse_ramp_0p45s_24bit.wav; sourceTree = "<group>"; };
+		6F40A97820AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble2k_pulse_ramp_0p45s_24bit.wav; sourceTree = "<group>"; };
+		6F40A97920AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble1k_pulse_ramp_0p45s_24bit.wav; sourceTree = "<group>"; };
+		6F40AFC7207EF0D700B04E4E /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		6F612F9A20A9E72B00D3DAB1 /* CalibrationData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CalibrationData+CoreDataClass.swift"; path = "/Users/jellison/Documents/Xcode/AuditoryRuminator2/Self Assessment/CalibrationData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		6F612F9B20A9E72B00D3DAB1 /* CalibrationData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CalibrationData+CoreDataProperties.swift"; path = "/Users/jellison/Documents/Xcode/AuditoryRuminator2/Self Assessment/CalibrationData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		6F826F74207EF87C0006F0CF /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		6F8AA900208E98F80096BD78 /* NewResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewResultsViewController.swift; sourceTree = "<group>"; };
+		6F8AA926208FECD40096BD78 /* Self Assessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Self Assessment.xcdatamodel"; sourceTree = "<group>"; };
+		6F8AA93220912B970096BD78 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		6F8AA96D20937C4C0096BD78 /* CurrentTest+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CurrentTest+CoreDataClass.swift"; path = "/Users/jellison/Documents/Xcode/AuditoryRuminator/Self Assessment/CurrentTest+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		6F8AA96E20937C4D0096BD78 /* CurrentTest+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CurrentTest+CoreDataProperties.swift"; path = "/Users/jellison/Documents/Xcode/AuditoryRuminator/Self Assessment/CurrentTest+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		6F8AA9B52098D2380096BD78 /* SavedResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedResultsViewController.swift; sourceTree = "<group>"; };
+		6F8EFE7B207807CA00FB6AFD /* Self Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8EFE7E207807CA00FB6AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F8EFE83207807CA00FB6AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F8EFE85207807CC00FB6AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F8EFE88207807CC00FB6AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F8EFE8A207807CC00FB6AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F8EFE902078087B00FB6AFD /* CalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalViewController.swift; sourceTree = "<group>"; };
+		6F8EFE92207816AE00FB6AFD /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		6FB3820220A38E7C00AF59EE /* warble1k_ramp_1p2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble1k_ramp_1p2.wav; sourceTree = "<group>"; };
+		6FB3820420A4CE6700AF59EE /* CalibrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationViewController.swift; sourceTree = "<group>"; };
+		6FF41D73207FF1FD005500D7 /* PositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		6FF41D7520800E15005500D7 /* Test1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1ViewController.swift; sourceTree = "<group>"; };
+		6FF41D77208011A6005500D7 /* Test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2ViewController.swift; sourceTree = "<group>"; };
+		6FF41D79208011B3005500D7 /* Test3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3ViewController.swift; sourceTree = "<group>"; };
+		6FF41D7B208011C3005500D7 /* Test4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test4ViewController.swift; sourceTree = "<group>"; };
+		6FF41D7D2080135D005500D7 /* Test5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test5ViewController.swift; sourceTree = "<group>"; };
+		6FF41D7F2080136B005500D7 /* Test6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test6ViewController.swift; sourceTree = "<group>"; };
+		6FF41D8120801377005500D7 /* Test7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test7ViewController.swift; sourceTree = "<group>"; };
+		74BC391DACB7AABC55187DCE /* Pods-Self Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self Assessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Self Assessment/Pods-Self Assessment.release.xcconfig"; sourceTree = "<group>"; };
+		F89449525594BC651AC12304 /* Pods_Self_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Self_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F8EFE78207807CA00FB6AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5839F78A15DE8B839E46AC /* Pods_Self_Assessment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1A62AAA3217D7400980ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F89449525594BC651AC12304 /* Pods_Self_Assessment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F8EFE72207807CA00FB6AFD = {
+			isa = PBXGroup;
+			children = (
+				6F8EFE7D207807CA00FB6AFD /* Self Assessment */,
+				6F8EFE7C207807CA00FB6AFD /* Products */,
+				B45693F75B260D993F354BA4 /* Pods */,
+				2E1A62AAA3217D7400980ADF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F8EFE7C207807CA00FB6AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F8EFE7B207807CA00FB6AFD /* Self Assessment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F8EFE7D207807CA00FB6AFD /* Self Assessment */ = {
+			isa = PBXGroup;
+			children = (
+				6F8AA96D20937C4C0096BD78 /* CurrentTest+CoreDataClass.swift */,
+				6F8AA96E20937C4D0096BD78 /* CurrentTest+CoreDataProperties.swift */,
+				6F612F9A20A9E72B00D3DAB1 /* CalibrationData+CoreDataClass.swift */,
+				6F612F9B20A9E72B00D3DAB1 /* CalibrationData+CoreDataProperties.swift */,
+				6F40A97920AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav */,
+				6F40A97820AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav */,
+				6F40A97620AA723200C8ECA6 /* warble3k_pulse_ramp_0p45s_24bit.wav */,
+				6F40A97720AA723300C8ECA6 /* warble4k_pulse_ramp_0p45s_24bit.wav */,
+				6F40A96820AA53B900C8ECA6 /* 1k_sine_m6db_ramp_24bit.wav */,
+				6F40A96720AA53B900C8ECA6 /* 2k_sine_m6db_ramp_24bit.wav */,
+				6F40A96620AA53B900C8ECA6 /* 3k_sine_m6db_ramp_24bit.wav */,
+				6F40A96920AA53B900C8ECA6 /* 4k_sine_m6db_ramp_24bit.wav */,
+				6FB3820220A38E7C00AF59EE /* warble1k_ramp_1p2.wav */,
+				6F8EFE7E207807CA00FB6AFD /* AppDelegate.swift */,
+				6F8AA93220912B970096BD78 /* PersistenceService.swift */,
+				6F8AA925208FECD40096BD78 /* Self Assessment.xcdatamodeld */,
+				6F8EFE82207807CA00FB6AFD /* Main.storyboard */,
+				6F8AA9B52098D2380096BD78 /* SavedResultsViewController.swift */,
+				6F030859208517EA009E1A4D /* StoredResultsViewController.swift */,
+				6F8AA900208E98F80096BD78 /* NewResultsViewController.swift */,
+				6FF41D8120801377005500D7 /* Test7ViewController.swift */,
+				6FF41D7F2080136B005500D7 /* Test6ViewController.swift */,
+				6FF41D7D2080135D005500D7 /* Test5ViewController.swift */,
+				6FF41D7B208011C3005500D7 /* Test4ViewController.swift */,
+				6FF41D79208011B3005500D7 /* Test3ViewController.swift */,
+				6FF41D77208011A6005500D7 /* Test2ViewController.swift */,
+				6FF41D7520800E15005500D7 /* Test1ViewController.swift */,
+				6F8EFE92207816AE00FB6AFD /* TestViewController.swift */,
+				6F03085B208545C8009E1A4D /* InstructViewController.swift */,
+				6FB3820420A4CE6700AF59EE /* CalibrationViewController.swift */,
+				6FF41D73207FF1FD005500D7 /* PositionViewController.swift */,
+				6F8EFE902078087B00FB6AFD /* CalViewController.swift */,
+				6F826F74207EF87C0006F0CF /* InputViewController.swift */,
+				6F40AFC7207EF0D700B04E4E /* IntroViewController.swift */,
+				6F8EFE85207807CC00FB6AFD /* Assets.xcassets */,
+				6F8EFE87207807CC00FB6AFD /* LaunchScreen.storyboard */,
+				6F8EFE8A207807CC00FB6AFD /* Info.plist */,
+			);
+			path = "Self Assessment";
+			sourceTree = "<group>";
+		};
+		B45693F75B260D993F354BA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B9D1ADC286784E51CA45C78 /* Pods-Self Assessment.debug.xcconfig */,
+				74BC391DACB7AABC55187DCE /* Pods-Self Assessment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F8EFE7A207807CA00FB6AFD /* Self Assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F8EFE8D207807CC00FB6AFD /* Build configuration list for PBXNativeTarget "Self Assessment" */;
+			buildPhases = (
+				32B481FE2C6D909308681A44 /* [CP] Check Pods Manifest.lock */,
+				6F8EFE77207807CA00FB6AFD /* Sources */,
+				6F8EFE78207807CA00FB6AFD /* Frameworks */,
+				6F8EFE79207807CA00FB6AFD /* Resources */,
+				23966687FEB54AF3C79D6694 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Self Assessment";
+			productName = "Self Assessment";
+			productReference = 6F8EFE7B207807CA00FB6AFD /* Self Assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F8EFE73207807CA00FB6AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "John Ellison";
+				TargetAttributes = {
+					6F8EFE7A207807CA00FB6AFD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 6F8EFE76207807CA00FB6AFD /* Build configuration list for PBXProject "Self Assessment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F8EFE72207807CA00FB6AFD;
+			productRefGroup = 6F8EFE7C207807CA00FB6AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F8EFE7A207807CA00FB6AFD /* Self Assessment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F8EFE79207807CA00FB6AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F40A96A20AA53B900C8ECA6 /* 3k_sine_m6db_ramp_24bit.wav in Resources */,
+				6F40A96B20AA53B900C8ECA6 /* 2k_sine_m6db_ramp_24bit.wav in Resources */,
+				6F40A97C20AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav in Resources */,
+				6F40A96C20AA53B900C8ECA6 /* 1k_sine_m6db_ramp_24bit.wav in Resources */,
+				6F40A97A20AA723300C8ECA6 /* warble3k_pulse_ramp_0p45s_24bit.wav in Resources */,
+				6F8EFE89207807CC00FB6AFD /* LaunchScreen.storyboard in Resources */,
+				6F40A97B20AA723300C8ECA6 /* warble4k_pulse_ramp_0p45s_24bit.wav in Resources */,
+				6FB3820320A38E7D00AF59EE /* warble1k_ramp_1p2.wav in Resources */,
+				6F8EFE86207807CC00FB6AFD /* Assets.xcassets in Resources */,
+				6F8EFE84207807CA00FB6AFD /* Main.storyboard in Resources */,
+				6F40A97D20AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav in Resources */,
+				6F40A96D20AA53B900C8ECA6 /* 4k_sine_m6db_ramp_24bit.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23966687FEB54AF3C79D6694 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Self Assessment/Pods-Self Assessment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Self Assessment/Pods-Self Assessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32B481FE2C6D909308681A44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Self Assessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F8EFE77207807CA00FB6AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8AA901208E98F80096BD78 /* NewResultsViewController.swift in Sources */,
+				6FF41D78208011A6005500D7 /* Test2ViewController.swift in Sources */,
+				6F40AFC8207EF0D700B04E4E /* IntroViewController.swift in Sources */,
+				6F8AA927208FECD40096BD78 /* Self Assessment.xcdatamodeld in Sources */,
+				6FF41D7C208011C3005500D7 /* Test4ViewController.swift in Sources */,
+				6FF41D7620800E15005500D7 /* Test1ViewController.swift in Sources */,
+				6F8AA93320912B970096BD78 /* PersistenceService.swift in Sources */,
+				6F8AA97020937C4D0096BD78 /* CurrentTest+CoreDataProperties.swift in Sources */,
+				6FF41D7E2080135D005500D7 /* Test5ViewController.swift in Sources */,
+				6F8EFE912078087B00FB6AFD /* CalViewController.swift in Sources */,
+				6F826F75207EF87C0006F0CF /* InputViewController.swift in Sources */,
+				6FF41D802080136B005500D7 /* Test6ViewController.swift in Sources */,
+				6F8AA9B62098D2380096BD78 /* SavedResultsViewController.swift in Sources */,
+				6F612F9C20A9E72B00D3DAB1 /* CalibrationData+CoreDataClass.swift in Sources */,
+				6FF41D7A208011B3005500D7 /* Test3ViewController.swift in Sources */,
+				6F8EFE93207816AE00FB6AFD /* TestViewController.swift in Sources */,
+				6F612F9D20A9E72B00D3DAB1 /* CalibrationData+CoreDataProperties.swift in Sources */,
+				6FB3820520A4CE6700AF59EE /* CalibrationViewController.swift in Sources */,
+				6F03085A208517EA009E1A4D /* StoredResultsViewController.swift in Sources */,
+				6F8AA96F20937C4D0096BD78 /* CurrentTest+CoreDataClass.swift in Sources */,
+				6FF41D74207FF1FD005500D7 /* PositionViewController.swift in Sources */,
+				6F8EFE7F207807CA00FB6AFD /* AppDelegate.swift in Sources */,
+				6F03085C208545C8009E1A4D /* InstructViewController.swift in Sources */,
+				6FF41D8220801377005500D7 /* Test7ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F8EFE82207807CA00FB6AFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F8EFE83207807CA00FB6AFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F8EFE87207807CC00FB6AFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F8EFE88207807CC00FB6AFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F8EFE8B207807CC00FB6AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F8EFE8C207807CC00FB6AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F8EFE8E207807CC00FB6AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9D1ADC286784E51CA45C78 /* Pods-Self Assessment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4B428CQCV2;
+				INFOPLIST_FILE = "Self Assessment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eargo.Self-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F8EFE8F207807CC00FB6AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BC391DACB7AABC55187DCE /* Pods-Self Assessment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4B428CQCV2;
+				INFOPLIST_FILE = "Self Assessment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eargo.Self-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F8EFE76207807CA00FB6AFD /* Build configuration list for PBXProject "Self Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8EFE8B207807CC00FB6AFD /* Debug */,
+				6F8EFE8C207807CC00FB6AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F8EFE8D207807CC00FB6AFD /* Build configuration list for PBXNativeTarget "Self Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8EFE8E207807CC00FB6AFD /* Debug */,
+				6F8EFE8F207807CC00FB6AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F8AA925208FECD40096BD78 /* Self Assessment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F8AA926208FECD40096BD78 /* Self Assessment.xcdatamodel */,
+			);
+			currentVersion = 6F8AA926208FECD40096BD78 /* Self Assessment.xcdatamodel */;
+			path = "Self Assessment.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F8EFE73207807CA00FB6AFD /* Project object */;
+}
