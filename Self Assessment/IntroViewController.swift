@@ -25,8 +25,8 @@ class IntroViewController: UIViewController {
         NewResultsViewController.GlobalVar.avgR.removeAll()
         StoredResultsViewController.GlobalVar.retrieveThreshL.removeAll()
         StoredResultsViewController.GlobalVar.retrieveThreshR.removeAll()
-        TestViewController.GlobalVar.calLevelR.removeAll()
-        TestViewController.GlobalVar.calLevelL.removeAll()
+//        TestViewController.GlobalVar.calLevelR.removeAll()
+//        TestViewController.GlobalVar.calLevelL.removeAll()
         
     }
         

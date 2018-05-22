@@ -115,8 +115,8 @@ class Test1ViewController: UIViewController {
             _ = self.performSegue(withIdentifier: "unwindToIntro", sender: self)
             self.present(cancelAlert, animated: true, completion: nil)
             TestViewController.GlobalVar.threshold.removeAll()
-            TestViewController.GlobalVar.calLevelL.removeAll()
-            TestViewController.GlobalVar.calLevelR.removeAll()
+//            TestViewController.GlobalVar.calLevelL.removeAll()
+//            TestViewController.GlobalVar.calLevelR.removeAll()
         }
         
         let cancelAction2 = UIAlertAction(title: "Continue", style: .default) { (cancelAction2) -> Void in

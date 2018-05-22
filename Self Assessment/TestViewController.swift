@@ -131,6 +131,10 @@ class TestViewController: UIViewController {
             print("calibration date: ", calData[calData.count-1].date!)
             print("right: \(GlobalVar.calLevelR)")
             print("left: \(GlobalVar.calLevelL)")
+            print("RIGHT 1k: \((calData)[4].calR_1k))")
+            print("RIGHT 2k: \((calData)[4].calR_2k))")
+            print("RIGHT 3k: \((calData)[4].calR_3k))")
+            print("RIGHT 4k: \((calData)[4].calR_4k))")
         } catch {}
     }
     
@@ -141,8 +145,8 @@ class TestViewController: UIViewController {
             _ = self.performSegue(withIdentifier: "unwindToIntro", sender: self)
             self.present(cancelAlert, animated: true, completion: nil)
             GlobalVar.threshold.removeAll()
-            GlobalVar.calLevelL.removeAll()
-            GlobalVar.calLevelR.removeAll()
+//            GlobalVar.calLevelL.removeAll()
+//            GlobalVar.calLevelR.removeAll()
         }
         
         let cancelAction2 = UIAlertAction(title: "Continue", style: .default) { (cancelAction2) -> Void in
