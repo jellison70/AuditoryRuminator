@@ -152,7 +152,7 @@
         <!--Calibration View Controller-->
         <scene sceneID="azQ-8X-t3t">
             <objects>
-                <viewController id="Iqm-eg-C95" customClass="CalibrationViewController" customModule="Self_Assessment" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CalibrationViewController" id="Iqm-eg-C95" customClass="CalibrationViewController" customModule="Self_Assessment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Fa-jl-B9I">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1628,6 +1628,6 @@ Tap 'Practice' for a practice round, or tap 'Next' for the assessment. </string>
         <image name="target box" width="90" height="73"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Hrx-gz-DAC"/>
+        <segue reference="1I8-6X-Nfb"/>
     </inferredMetricsTieBreakers>
 </document>
