@@ -131,10 +131,10 @@ class TestViewController: UIViewController {
             print("calibration date: ", calData[calData.count-1].date!)
             print("right: \(GlobalVar.calLevelR)")
             print("left: \(GlobalVar.calLevelL)")
-            print("RIGHT 1k: \((calData)[4].calR_1k))")
-            print("RIGHT 2k: \((calData)[4].calR_2k))")
-            print("RIGHT 3k: \((calData)[4].calR_3k))")
-            print("RIGHT 4k: \((calData)[4].calR_4k))")
+            print("RIGHT 1k: \((calData)[calData.count-1].calR_1k))")
+            print("RIGHT 2k: \((calData)[calData.count-1].calR_2k))")
+            print("RIGHT 3k: \((calData)[calData.count-1].calR_3k))")
+            print("RIGHT 4k: \((calData)[calData.count-1].calR_4k))")
         } catch {}
     }
     

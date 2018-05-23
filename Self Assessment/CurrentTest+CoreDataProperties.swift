@@ -25,5 +25,8 @@ extension CurrentTest {
     @NSManaged public var thresholdR_3k: Double
     @NSManaged public var thresholdL_4k: Double
     @NSManaged public var thresholdR_4k: Double
+    @NSManaged public var avgR: Double
+    @NSManaged public var avgL: Double
+    @NSManaged public var displayOrder: NSNumber
 
 }

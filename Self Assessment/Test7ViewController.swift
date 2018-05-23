@@ -24,7 +24,7 @@ class Test7ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             
             let url = Bundle.main.url(forResource: "warble4k_pulse_ramp_0p45s_24bit", withExtension: "wav")
             
