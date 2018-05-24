@@ -288,6 +288,12 @@ class CalibrationViewController: UIViewController, AVAudioPlayerDelegate {
         calibrationData.calL_3k = calLevelLeft_3k
         calibrationData.calL_4k = calLevelLeft_4k
         PersistenceService.saveContext()
-        dismiss(animated: true, completion: nil)
+        
+        IntroViewController.GlobalVar.calLevelR.removeAll()
+        IntroViewController.GlobalVar.calLevelL.removeAll()
+        
+        let viewControllerToIntro = self.storyboard?.instantiateViewController(withIdentifier: "IntroViewController")
+        self.present(viewControllerToIntro!, animated: true, completion: nil)
+        //dismiss(animated: true, completion: nil)
     }
 }

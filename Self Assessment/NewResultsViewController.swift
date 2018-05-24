@@ -44,11 +44,11 @@ class NewResultsViewController: UIViewController {
         super.viewDidLoad()
         
         for i in 0..<4 {
-            let temp = [logC(val: TestViewController.GlobalVar.threshold[i]/TestViewController.GlobalVar.calLevelR[i], forBase: 10.0)]
+            let temp = [logC(val: TestViewController.GlobalVar.threshold[i]/IntroViewController.GlobalVar.calLevelR[i], forBase: 10.0)]
             GlobalVar.threshR.append(contentsOf: temp)
         }
         for i in 0..<4 {
-            let temp = [logC(val: TestViewController.GlobalVar.threshold[i+4]/TestViewController.GlobalVar.calLevelL[i], forBase: 10.0)]
+            let temp = [logC(val: TestViewController.GlobalVar.threshold[i+4]/IntroViewController.GlobalVar.calLevelL[i], forBase: 10.0)]
             GlobalVar.threshL.append(contentsOf: temp)
         }
         print("Right thresholds (dB HL) are \(GlobalVar.threshR)")

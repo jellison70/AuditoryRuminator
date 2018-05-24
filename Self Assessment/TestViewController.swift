@@ -22,18 +22,12 @@ class TestViewController: UIViewController {
     var initial: Bool = true
     var cntMax: Int = 0
     
-    var calData = [CalibrationData]()
-    
     struct GlobalVar{
         static var threshold = [Double]()
-        static var calLevelR = [Double]()
-        static var calLevelL = [Double]()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        getDataFromDB()
         
         let url = Bundle.main.url(forResource: "warble1k_pulse_ramp_0p45s_24bit", withExtension: "wav")
         
@@ -55,7 +49,7 @@ class TestViewController: UIViewController {
     @objc
     func adaptation() {
         if initial == true {
-            level = GlobalVar.calLevelR[0]
+            level = IntroViewController.GlobalVar.calLevelR[0]
             audioPlayer.setVolume(Float(level), fadeDuration: 0)
             print("beginning level: \(self.level)")
             audioPlayer.play()
@@ -84,8 +78,8 @@ class TestViewController: UIViewController {
             level = level * pow(10, 0.25)
             audioPlayer.setVolume(Float(level), fadeDuration: 0)
             audioPlayer.play()
-            if round(level / GlobalVar.calLevelR[0])  >= 10.0 {
-                print("Maximum level Achieved: \(level), ratio = \(level / GlobalVar.calLevelR[0])")
+            if round(level / IntroViewController.GlobalVar.calLevelR[0])  >= 10.0 {
+                print("Maximum level Achieved: \(level), ratio = \(level / IntroViewController.GlobalVar.calLevelR[0])")
                 cntMax += 1
                 level = level * (1 / pow(10, 0.25))
                 if cntMax == 5 {
@@ -115,29 +109,6 @@ class TestViewController: UIViewController {
         showCancelAlert()
     }
     
-    func getDataFromDB() {
-        let fetchRequest: NSFetchRequest<CalibrationData> = CalibrationData.fetchRequest()
-        do {
-            let calData = try PersistenceService.context.fetch(fetchRequest)
-            self.calData = calData
-            GlobalVar.calLevelR.append(calData[calData.count-1].calR_1k)
-            GlobalVar.calLevelR.append(calData[calData.count-1].calR_2k)
-            GlobalVar.calLevelR.append(calData[calData.count-1].calR_3k)
-            GlobalVar.calLevelR.append(calData[calData.count-1].calR_4k)
-            GlobalVar.calLevelL.append(calData[calData.count-1].calL_1k)
-            GlobalVar.calLevelL.append(calData[calData.count-1].calL_2k)
-            GlobalVar.calLevelL.append(calData[calData.count-1].calL_3k)
-            GlobalVar.calLevelL.append(calData[calData.count-1].calL_4k)
-            print("calibration date: ", calData[calData.count-1].date!)
-            print("right: \(GlobalVar.calLevelR)")
-            print("left: \(GlobalVar.calLevelL)")
-            print("RIGHT 1k: \((calData)[calData.count-1].calR_1k))")
-            print("RIGHT 2k: \((calData)[calData.count-1].calR_2k))")
-            print("RIGHT 3k: \((calData)[calData.count-1].calR_3k))")
-            print("RIGHT 4k: \((calData)[calData.count-1].calR_4k))")
-        } catch {}
-    }
-    
     func showCancelAlert() {
         let cancelAlert = UIAlertController(title: "You are about to quit.", message: "Do you want to stop and proceed to the welcome screen?", preferredStyle: .alert)
         
@@ -145,8 +116,6 @@ class TestViewController: UIViewController {
             _ = self.performSegue(withIdentifier: "unwindToIntro", sender: self)
             self.present(cancelAlert, animated: true, completion: nil)
             GlobalVar.threshold.removeAll()
-//            GlobalVar.calLevelL.removeAll()
-//            GlobalVar.calLevelR.removeAll()
         }
         
         let cancelAction2 = UIAlertAction(title: "Continue", style: .default) { (cancelAction2) -> Void in

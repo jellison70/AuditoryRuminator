@@ -47,7 +47,7 @@ class Test5ViewController: UIViewController {
     @objc
     func adaptation() {
         if initial == true {
-            level = TestViewController.GlobalVar.calLevelL[1]
+            level = IntroViewController.GlobalVar.calLevelL[1]
             audioPlayer.setVolume(Float(level), fadeDuration: 0)
             print("beginning level: \(self.level)")
             audioPlayer.play()
@@ -76,8 +76,8 @@ class Test5ViewController: UIViewController {
             level = level * pow(10, 0.25)
             audioPlayer.setVolume(Float(level), fadeDuration: 0)
             audioPlayer.play()
-            if round(level / TestViewController.GlobalVar.calLevelL[1])  >= 10.0 {
-                print("Maximum level Achieved: \(level), ratio = \(level / TestViewController.GlobalVar.calLevelL[1])")
+            if round(level / IntroViewController.GlobalVar.calLevelL[1])  >= 10.0 {
+                print("Maximum level Achieved: \(level), ratio = \(level / IntroViewController.GlobalVar.calLevelL[1])")
                 cntMax += 1
                 level = level * (1 / pow(10, 0.25))
                 if cntMax == 5 {
@@ -114,8 +114,6 @@ class Test5ViewController: UIViewController {
             _ = self.performSegue(withIdentifier: "unwindToIntro", sender: self)
             self.present(cancelAlert, animated: true, completion: nil)
             TestViewController.GlobalVar.threshold.removeAll()
-//            TestViewController.GlobalVar.calLevelL.removeAll()
-//            TestViewController.GlobalVar.calLevelR.removeAll()
         }
         
         let cancelAction2 = UIAlertAction(title: "Continue", style: .default) { (cancelAction2) -> Void in

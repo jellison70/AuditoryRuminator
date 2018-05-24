@@ -1109,7 +1109,7 @@
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="24"/>
                                         <state key="normal" title="Start"/>
                                         <connections>
-                                            <segue destination="tTE-Ax-Hmn" kind="presentation" id="1aj-MK-ns6"/>
+                                            <action selector="calibrate:" destination="LUM-Fh-1eQ" eventType="touchUpInside" id="PXI-l4-Ngi"/>
                                         </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Welcome!   This brief hearing test is used to personalize your devices.   Press 'Start' to begin." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wwH-ZK-Jh7">
@@ -1628,6 +1628,6 @@ Tap 'Practice' for a practice round, or tap 'Next' for the assessment. </string>
         <image name="target box" width="90" height="73"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1I8-6X-Nfb"/>
+        <segue reference="Hrx-gz-DAC"/>
     </inferredMetricsTieBreakers>
 </document>
