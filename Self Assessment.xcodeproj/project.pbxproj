@@ -18,14 +18,10 @@
 		6F40A97C20AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F40A97820AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav */; };
 		6F40A97D20AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F40A97920AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav */; };
 		6F40AFC8207EF0D700B04E4E /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F40AFC7207EF0D700B04E4E /* IntroViewController.swift */; };
-		6F612F9C20A9E72B00D3DAB1 /* CalibrationData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F612F9A20A9E72B00D3DAB1 /* CalibrationData+CoreDataClass.swift */; };
-		6F612F9D20A9E72B00D3DAB1 /* CalibrationData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F612F9B20A9E72B00D3DAB1 /* CalibrationData+CoreDataProperties.swift */; };
 		6F826F75207EF87C0006F0CF /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F826F74207EF87C0006F0CF /* InputViewController.swift */; };
 		6F8AA901208E98F80096BD78 /* NewResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA900208E98F80096BD78 /* NewResultsViewController.swift */; };
 		6F8AA927208FECD40096BD78 /* Self Assessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA925208FECD40096BD78 /* Self Assessment.xcdatamodeld */; };
 		6F8AA93320912B970096BD78 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA93220912B970096BD78 /* PersistenceService.swift */; };
-		6F8AA96F20937C4D0096BD78 /* CurrentTest+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA96D20937C4C0096BD78 /* CurrentTest+CoreDataClass.swift */; };
-		6F8AA97020937C4D0096BD78 /* CurrentTest+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA96E20937C4D0096BD78 /* CurrentTest+CoreDataProperties.swift */; };
 		6F8AA9B62098D2380096BD78 /* SavedResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA9B52098D2380096BD78 /* SavedResultsViewController.swift */; };
 		6F8EFE7F207807CA00FB6AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EFE7E207807CA00FB6AFD /* AppDelegate.swift */; };
 		6F8EFE84207807CA00FB6AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8EFE82207807CA00FB6AFD /* Main.storyboard */; };
@@ -44,6 +40,10 @@
 		6FF41D802080136B005500D7 /* Test6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D7F2080136B005500D7 /* Test6ViewController.swift */; };
 		6FF41D8220801377005500D7 /* Test7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D8120801377005500D7 /* Test7ViewController.swift */; };
 		8A5839F78A15DE8B839E46AC /* Pods_Self_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89449525594BC651AC12304 /* Pods_Self_Assessment.framework */; };
+		BE0CB1D120B7889F0006A3F8 /* CalibrationData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0CB1CD20B7889E0006A3F8 /* CalibrationData+CoreDataClass.swift */; };
+		BE0CB1D220B7889F0006A3F8 /* CurrentTest+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0CB1CE20B7889E0006A3F8 /* CurrentTest+CoreDataProperties.swift */; };
+		BE0CB1D320B7889F0006A3F8 /* CalibrationData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0CB1CF20B7889F0006A3F8 /* CalibrationData+CoreDataProperties.swift */; };
+		BE0CB1D420B7889F0006A3F8 /* CurrentTest+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0CB1D020B7889F0006A3F8 /* CurrentTest+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,14 +59,10 @@
 		6F40A97820AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble2k_pulse_ramp_0p45s_24bit.wav; sourceTree = "<group>"; };
 		6F40A97920AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble1k_pulse_ramp_0p45s_24bit.wav; sourceTree = "<group>"; };
 		6F40AFC7207EF0D700B04E4E /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
-		6F612F9A20A9E72B00D3DAB1 /* CalibrationData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CalibrationData+CoreDataClass.swift"; path = "/Users/jellison/Documents/Xcode/AuditoryRuminator2/Self Assessment/CalibrationData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
-		6F612F9B20A9E72B00D3DAB1 /* CalibrationData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CalibrationData+CoreDataProperties.swift"; path = "/Users/jellison/Documents/Xcode/AuditoryRuminator2/Self Assessment/CalibrationData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		6F826F74207EF87C0006F0CF /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		6F8AA900208E98F80096BD78 /* NewResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewResultsViewController.swift; sourceTree = "<group>"; };
 		6F8AA926208FECD40096BD78 /* Self Assessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Self Assessment.xcdatamodel"; sourceTree = "<group>"; };
 		6F8AA93220912B970096BD78 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
-		6F8AA96D20937C4C0096BD78 /* CurrentTest+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CurrentTest+CoreDataClass.swift"; path = "/Users/jellison/Documents/Xcode/AuditoryRuminator2/Self Assessment/CurrentTest+CoreDataClass.swift"; sourceTree = "<absolute>"; };
-		6F8AA96E20937C4D0096BD78 /* CurrentTest+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CurrentTest+CoreDataProperties.swift"; path = "/Users/jellison/Documents/Xcode/AuditoryRuminator2/Self Assessment/CurrentTest+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		6F8AA9B52098D2380096BD78 /* SavedResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedResultsViewController.swift; sourceTree = "<group>"; };
 		6F8EFE7B207807CA00FB6AFD /* Self Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8EFE7E207807CA00FB6AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +83,10 @@
 		6FF41D7F2080136B005500D7 /* Test6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test6ViewController.swift; sourceTree = "<group>"; };
 		6FF41D8120801377005500D7 /* Test7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test7ViewController.swift; sourceTree = "<group>"; };
 		74BC391DACB7AABC55187DCE /* Pods-Self Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self Assessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Self Assessment/Pods-Self Assessment.release.xcconfig"; sourceTree = "<group>"; };
+		BE0CB1CD20B7889E0006A3F8 /* CalibrationData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalibrationData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BE0CB1CE20B7889E0006A3F8 /* CurrentTest+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CurrentTest+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BE0CB1CF20B7889F0006A3F8 /* CalibrationData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalibrationData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BE0CB1D020B7889F0006A3F8 /* CurrentTest+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CurrentTest+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F89449525594BC651AC12304 /* Pods_Self_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Self_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -131,10 +131,10 @@
 		6F8EFE7D207807CA00FB6AFD /* Self Assessment */ = {
 			isa = PBXGroup;
 			children = (
-				6F8AA96D20937C4C0096BD78 /* CurrentTest+CoreDataClass.swift */,
-				6F8AA96E20937C4D0096BD78 /* CurrentTest+CoreDataProperties.swift */,
-				6F612F9A20A9E72B00D3DAB1 /* CalibrationData+CoreDataClass.swift */,
-				6F612F9B20A9E72B00D3DAB1 /* CalibrationData+CoreDataProperties.swift */,
+				BE0CB1CD20B7889E0006A3F8 /* CalibrationData+CoreDataClass.swift */,
+				BE0CB1CF20B7889F0006A3F8 /* CalibrationData+CoreDataProperties.swift */,
+				BE0CB1D020B7889F0006A3F8 /* CurrentTest+CoreDataClass.swift */,
+				BE0CB1CE20B7889E0006A3F8 /* CurrentTest+CoreDataProperties.swift */,
 				6F40A97920AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav */,
 				6F40A97820AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav */,
 				6F40A97620AA723200C8ECA6 /* warble3k_pulse_ramp_0p45s_24bit.wav */,
@@ -309,23 +309,23 @@
 				6FF41D7C208011C3005500D7 /* Test4ViewController.swift in Sources */,
 				6FF41D7620800E15005500D7 /* Test1ViewController.swift in Sources */,
 				6F8AA93320912B970096BD78 /* PersistenceService.swift in Sources */,
-				6F8AA97020937C4D0096BD78 /* CurrentTest+CoreDataProperties.swift in Sources */,
 				6FF41D7E2080135D005500D7 /* Test5ViewController.swift in Sources */,
 				6F8EFE912078087B00FB6AFD /* CalViewController.swift in Sources */,
 				6F826F75207EF87C0006F0CF /* InputViewController.swift in Sources */,
 				6FF41D802080136B005500D7 /* Test6ViewController.swift in Sources */,
 				6F8AA9B62098D2380096BD78 /* SavedResultsViewController.swift in Sources */,
-				6F612F9C20A9E72B00D3DAB1 /* CalibrationData+CoreDataClass.swift in Sources */,
 				6FF41D7A208011B3005500D7 /* Test3ViewController.swift in Sources */,
 				6F8EFE93207816AE00FB6AFD /* TestViewController.swift in Sources */,
-				6F612F9D20A9E72B00D3DAB1 /* CalibrationData+CoreDataProperties.swift in Sources */,
 				6FB3820520A4CE6700AF59EE /* CalibrationViewController.swift in Sources */,
+				BE0CB1D220B7889F0006A3F8 /* CurrentTest+CoreDataProperties.swift in Sources */,
 				6F03085A208517EA009E1A4D /* StoredResultsViewController.swift in Sources */,
-				6F8AA96F20937C4D0096BD78 /* CurrentTest+CoreDataClass.swift in Sources */,
+				BE0CB1D420B7889F0006A3F8 /* CurrentTest+CoreDataClass.swift in Sources */,
 				6FF41D74207FF1FD005500D7 /* PositionViewController.swift in Sources */,
 				6F8EFE7F207807CA00FB6AFD /* AppDelegate.swift in Sources */,
+				BE0CB1D320B7889F0006A3F8 /* CalibrationData+CoreDataProperties.swift in Sources */,
 				6F03085C208545C8009E1A4D /* InstructViewController.swift in Sources */,
 				6FF41D8220801377005500D7 /* Test7ViewController.swift in Sources */,
+				BE0CB1D120B7889F0006A3F8 /* CalibrationData+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4B428CQCV2;
+				DEVELOPMENT_TEAM = GN8Q6KEA7G;
 				INFOPLIST_FILE = "Self Assessment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4B428CQCV2;
+				DEVELOPMENT_TEAM = GN8Q6KEA7G;
 				INFOPLIST_FILE = "Self Assessment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
