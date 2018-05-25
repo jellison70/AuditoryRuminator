@@ -31,7 +31,7 @@ class IntroViewController: UIViewController {
             let calData = try PersistenceService.context.fetch(fetchRequest)
             self.calData = calData
             
-            if calData.isEmpty {
+            if calData.isEmpty || calData[calData.count-1].calR_1k == 0.0 || calData[calData.count-1].calR_2k == 0.0 || calData[calData.count-1].calR_3k == 0.0 || calData[calData.count-1].calR_4k == 0.0 || calData[calData.count-1].calL_1k == 0.0 || calData[calData.count-1].calL_2k == 0.0 || calData[calData.count-1].calL_3k == 0.0 || calData[calData.count-1].calL_4k == 0.0 {
                 print("CalData for right is empty")
                 print("CalData for left is empty")
             } else {
@@ -65,7 +65,7 @@ class IntroViewController: UIViewController {
         let calAction2 = UIAlertAction(title: "Use estimated values", style: .default) { (calAction2) -> Void in
             let viewControllerNo = self.storyboard?.instantiateViewController(withIdentifier: "InputViewController")
             self.present(viewControllerNo!, animated: false, completion: nil)
-            GlobalVar.calLevelR = [0.31965649127960205, 0.5, 0.29732823371887207, 0.3009541928768158]
+            GlobalVar.calLevelR = [0.1135496199131012, 0.18826335668563843, 0.10582061111927032, 0.1051526740193367]
             GlobalVar.calLevelL = GlobalVar.calLevelR
         }
         calAlert.addAction(calAction1)
@@ -77,7 +77,7 @@ class IntroViewController: UIViewController {
     @IBAction func calibrate(_ sender: UIButton) {
         print("right: \(GlobalVar.calLevelR)")
         print("left: \(GlobalVar.calLevelL)")
-        if calData.isEmpty {
+        if calData.isEmpty || calData[calData.count-1].calR_1k == 0.0 || calData[calData.count-1].calR_2k == 0.0 || calData[calData.count-1].calR_3k == 0.0 || calData[calData.count-1].calR_4k == 0.0 || calData[calData.count-1].calL_1k == 0.0 || calData[calData.count-1].calL_2k == 0.0 || calData[calData.count-1].calL_3k == 0.0 || calData[calData.count-1].calL_4k == 0.0 {
             showCalAlert()
         } else {
             let viewControllerContinue = self.storyboard?.instantiateViewController(withIdentifier: "InputViewController")

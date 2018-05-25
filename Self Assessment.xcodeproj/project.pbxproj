@@ -471,7 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GN8Q6KEA7G;
+				DEVELOPMENT_TEAM = 4B428CQCV2;
 				INFOPLIST_FILE = "Self Assessment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GN8Q6KEA7G;
+				DEVELOPMENT_TEAM = 4B428CQCV2;
 				INFOPLIST_FILE = "Self Assessment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

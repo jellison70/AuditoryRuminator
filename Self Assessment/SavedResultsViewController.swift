@@ -39,8 +39,8 @@ class SavedResultsViewController: UIViewController {
         StoredResultsViewController.GlobalVar.retrieveThreshR.removeAll()
         StoredResultsViewController.GlobalVar.retrieveAvgL.removeAll()
         StoredResultsViewController.GlobalVar.retrieveAvgR.removeAll()
-        IntroViewController.GlobalVar.calLevelR.removeAll()
-        IntroViewController.GlobalVar.calLevelL.removeAll()
+//        IntroViewController.GlobalVar.calLevelR.removeAll()
+//        IntroViewController.GlobalVar.calLevelL.removeAll()
     }
     
     @IBAction func unwindSeguePlotSavedResults(_ sender: UIStoryboardSegue) {

@@ -25,6 +25,7 @@ class CalibrationViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var setLeft2k: UIButton!
     @IBOutlet weak var setLeft3k: UIButton!
     @IBOutlet weak var setLeft4k: UIButton!
+    @IBOutlet weak var confirmButton: UIButton!
     
     var audioPlayer1: AVAudioPlayer!
     var audioPlayer2: AVAudioPlayer!
@@ -45,6 +46,8 @@ class CalibrationViewController: UIViewController, AVAudioPlayerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        confirmButton.isEnabled = false
         
         slider1k.setThumbImage(thumbImageNormal, for: .normal)
         slider2k.setThumbImage(thumbImageNormal, for: .normal)
@@ -217,11 +220,17 @@ class CalibrationViewController: UIViewController, AVAudioPlayerDelegate {
             calLevelRight_1k = Double(slider1k.value)
             setRight1k.isEnabled = false
         }
+        if setRight2k.isEnabled == false && setRight3k.isEnabled == false && setRight4k.isEnabled == false && setLeft1k.isEnabled == false && setLeft2k.isEnabled == false && setLeft3k.isEnabled == false && setLeft4k.isEnabled == false {
+            confirmButton.isEnabled = true
+        }
     }
     @IBAction func setCalRight2k(_ sender: UIButton) {
         if earSelector.isOn {
             calLevelRight_2k = Double(slider2k.value)
             setRight2k.isEnabled = false
+        }
+        if setRight1k.isEnabled == false && setRight3k.isEnabled == false && setRight4k.isEnabled == false && setLeft1k.isEnabled == false && setLeft2k.isEnabled == false && setLeft3k.isEnabled == false && setLeft4k.isEnabled == false{
+            confirmButton.isEnabled = true
         }
     }
     @IBAction func setCalRight3k(_ sender: UIButton) {
@@ -229,11 +238,17 @@ class CalibrationViewController: UIViewController, AVAudioPlayerDelegate {
             calLevelRight_3k = Double(slider3k.value)
             setRight3k.isEnabled = false
         }
+        if setRight1k.isEnabled == false && setRight2k.isEnabled == false && setRight4k.isEnabled == false && setLeft1k.isEnabled == false && setLeft2k.isEnabled == false && setLeft3k.isEnabled == false && setLeft4k.isEnabled == false{
+            confirmButton.isEnabled = true
+        }
     }
     @IBAction func setCalRight4k(_ sender: UIButton) {
         if earSelector.isOn {
             calLevelRight_4k = Double(slider4k.value)
             setRight4k.isEnabled = false
+        }
+        if setRight1k.isEnabled == false && setRight2k.isEnabled == false && setRight3k.isEnabled == false && setLeft1k.isEnabled == false && setLeft2k.isEnabled == false && setLeft3k.isEnabled == false && setLeft4k.isEnabled == false{
+            confirmButton.isEnabled = true
         }
     }
     @IBAction func setCalLeft1k(_ sender: UIButton) {
@@ -241,11 +256,17 @@ class CalibrationViewController: UIViewController, AVAudioPlayerDelegate {
             calLevelLeft_1k = Double(slider1k.value)
             setLeft1k.isEnabled = false
         }
+        if setRight1k.isEnabled == false && setRight2k.isEnabled == false && setRight3k.isEnabled == false && setRight4k.isEnabled == false && setLeft2k.isEnabled == false && setLeft3k.isEnabled == false && setLeft4k.isEnabled == false{
+            confirmButton.isEnabled = true
+        }
     }
     @IBAction func setCalLeft2k(_ sender: UIButton) {
         if earSelector.isOn == false {
             calLevelLeft_2k = Double(slider2k.value)
             setLeft2k.isEnabled = false
+        }
+        if setRight1k.isEnabled == false && setRight2k.isEnabled == false && setRight3k.isEnabled == false && setRight4k.isEnabled == false && setLeft1k.isEnabled == false && setLeft3k.isEnabled == false && setLeft4k.isEnabled == false{
+            confirmButton.isEnabled = true
         }
     }
     @IBAction func setCalLeft3k(_ sender: UIButton) {
@@ -253,11 +274,17 @@ class CalibrationViewController: UIViewController, AVAudioPlayerDelegate {
             calLevelLeft_3k = Double(slider3k.value)
             setLeft3k.isEnabled = false
         }
+        if setRight1k.isEnabled == false && setRight2k.isEnabled == false && setRight3k.isEnabled == false && setRight4k.isEnabled == false && setLeft1k.isEnabled == false && setLeft2k.isEnabled == false && setLeft4k.isEnabled == false{
+            confirmButton.isEnabled = true
+        }
     }
     @IBAction func setCalLeft4k(_ sender: UIButton) {
         if earSelector.isOn == false {
             calLevelLeft_4k = Double(slider4k.value)
             setLeft4k.isEnabled = false
+        }
+        if setRight1k.isEnabled == false && setRight2k.isEnabled == false && setRight3k.isEnabled == false && setRight4k.isEnabled == false && setLeft1k.isEnabled == false && setLeft2k.isEnabled == false && setLeft3k.isEnabled == false {
+            confirmButton.isEnabled = true
         }
     }
     
@@ -288,6 +315,20 @@ class CalibrationViewController: UIViewController, AVAudioPlayerDelegate {
         calibrationData.calL_3k = calLevelLeft_3k
         calibrationData.calL_4k = calLevelLeft_4k
         PersistenceService.saveContext()
+        
+        IntroViewController.GlobalVar.calLevelR.removeAll()
+        IntroViewController.GlobalVar.calLevelL.removeAll()
+        
+        let viewControllerToIntro = self.storyboard?.instantiateViewController(withIdentifier: "IntroViewController")
+        self.present(viewControllerToIntro!, animated: true, completion: nil)
+        //dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func back() {
+        audioPlayer1.pause()
+        audioPlayer2.pause()
+        audioPlayer3.pause()
+        audioPlayer4.pause()
         
         IntroViewController.GlobalVar.calLevelR.removeAll()
         IntroViewController.GlobalVar.calLevelL.removeAll()
