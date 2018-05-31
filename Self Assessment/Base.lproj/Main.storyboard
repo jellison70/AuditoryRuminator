@@ -1073,7 +1073,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z3r-xg-xuw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="YZF-xr-O69" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="399" y="840"/>
+            <point key="canvasLocation" x="4763" y="801"/>
         </scene>
         <!--Intro View Controller-->
         <scene sceneID="wIT-ky-N7E">
@@ -1618,7 +1618,7 @@ Tap 'Practice' for a practice round, or tap 'Next' for the assessment. </string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z0b-ty-53a" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="7ef-xR-MXx" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1794" y="839"/>
+            <point key="canvasLocation" x="4763" y="1595"/>
         </scene>
     </scenes>
     <resources>

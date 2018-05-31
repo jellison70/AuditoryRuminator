@@ -30,7 +30,7 @@ class InstructViewController: UIViewController {
 
         start()
         
-        let url = Bundle.main.url(forResource: "warble4k_pulse_ramp_0p45s_24bit", withExtension: "wav")
+        let url = Bundle.main.url(forResource: "warble1k_pulse_ramp_0p45s_24bit", withExtension: "wav")
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url!)
