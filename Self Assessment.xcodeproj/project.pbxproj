@@ -31,6 +31,10 @@
 		6F8EFE93207816AE00FB6AFD /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EFE92207816AE00FB6AFD /* TestViewController.swift */; };
 		6FB3820320A38E7D00AF59EE /* warble1k_ramp_1p2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6FB3820220A38E7C00AF59EE /* warble1k_ramp_1p2.wav */; };
 		6FB3820520A4CE6700AF59EE /* CalibrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3820420A4CE6700AF59EE /* CalibrationViewController.swift */; };
+		6FF3754620DAC73800D2A6C2 /* warble1k_pulse_ramp_0p45sX2_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6FF3754520DAC73800D2A6C2 /* warble1k_pulse_ramp_0p45sX2_24bit.wav */; };
+		6FF3754A20DACA8500D2A6C2 /* warble4k_pulse_ramp_0p45sX2_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6FF3754720DACA8400D2A6C2 /* warble4k_pulse_ramp_0p45sX2_24bit.wav */; };
+		6FF3754B20DACA8500D2A6C2 /* warble2k_pulse_ramp_0p45sX2_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6FF3754820DACA8400D2A6C2 /* warble2k_pulse_ramp_0p45sX2_24bit.wav */; };
+		6FF3754C20DACA8500D2A6C2 /* warble3k_pulse_ramp_0p45sX2_24bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6FF3754920DACA8500D2A6C2 /* warble3k_pulse_ramp_0p45sX2_24bit.wav */; };
 		6FF41D74207FF1FD005500D7 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D73207FF1FD005500D7 /* PositionViewController.swift */; };
 		6FF41D7620800E15005500D7 /* Test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D7520800E15005500D7 /* Test1ViewController.swift */; };
 		6FF41D78208011A6005500D7 /* Test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF41D77208011A6005500D7 /* Test2ViewController.swift */; };
@@ -74,6 +78,10 @@
 		6F8EFE92207816AE00FB6AFD /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		6FB3820220A38E7C00AF59EE /* warble1k_ramp_1p2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble1k_ramp_1p2.wav; sourceTree = "<group>"; };
 		6FB3820420A4CE6700AF59EE /* CalibrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationViewController.swift; sourceTree = "<group>"; };
+		6FF3754520DAC73800D2A6C2 /* warble1k_pulse_ramp_0p45sX2_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble1k_pulse_ramp_0p45sX2_24bit.wav; sourceTree = "<group>"; };
+		6FF3754720DACA8400D2A6C2 /* warble4k_pulse_ramp_0p45sX2_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble4k_pulse_ramp_0p45sX2_24bit.wav; sourceTree = "<group>"; };
+		6FF3754820DACA8400D2A6C2 /* warble2k_pulse_ramp_0p45sX2_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble2k_pulse_ramp_0p45sX2_24bit.wav; sourceTree = "<group>"; };
+		6FF3754920DACA8500D2A6C2 /* warble3k_pulse_ramp_0p45sX2_24bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warble3k_pulse_ramp_0p45sX2_24bit.wav; sourceTree = "<group>"; };
 		6FF41D73207FF1FD005500D7 /* PositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
 		6FF41D7520800E15005500D7 /* Test1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1ViewController.swift; sourceTree = "<group>"; };
 		6FF41D77208011A6005500D7 /* Test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2ViewController.swift; sourceTree = "<group>"; };
@@ -136,7 +144,11 @@
 				BE0CB1D020B7889F0006A3F8 /* CurrentTest+CoreDataClass.swift */,
 				BE0CB1CE20B7889E0006A3F8 /* CurrentTest+CoreDataProperties.swift */,
 				6F40A97920AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav */,
+				6FF3754820DACA8400D2A6C2 /* warble2k_pulse_ramp_0p45sX2_24bit.wav */,
+				6FF3754920DACA8500D2A6C2 /* warble3k_pulse_ramp_0p45sX2_24bit.wav */,
+				6FF3754720DACA8400D2A6C2 /* warble4k_pulse_ramp_0p45sX2_24bit.wav */,
 				6F40A97820AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav */,
+				6FF3754520DAC73800D2A6C2 /* warble1k_pulse_ramp_0p45sX2_24bit.wav */,
 				6F40A97620AA723200C8ECA6 /* warble3k_pulse_ramp_0p45s_24bit.wav */,
 				6F40A97720AA723300C8ECA6 /* warble4k_pulse_ramp_0p45s_24bit.wav */,
 				6F40A96820AA53B900C8ECA6 /* 1k_sine_m6db_ramp_24bit.wav */,
@@ -244,14 +256,18 @@
 				6F40A96A20AA53B900C8ECA6 /* 3k_sine_m6db_ramp_24bit.wav in Resources */,
 				6F40A96B20AA53B900C8ECA6 /* 2k_sine_m6db_ramp_24bit.wav in Resources */,
 				6F40A97C20AA723300C8ECA6 /* warble2k_pulse_ramp_0p45s_24bit.wav in Resources */,
+				6FF3754A20DACA8500D2A6C2 /* warble4k_pulse_ramp_0p45sX2_24bit.wav in Resources */,
 				6F40A96C20AA53B900C8ECA6 /* 1k_sine_m6db_ramp_24bit.wav in Resources */,
 				6F40A97A20AA723300C8ECA6 /* warble3k_pulse_ramp_0p45s_24bit.wav in Resources */,
 				6F8EFE89207807CC00FB6AFD /* LaunchScreen.storyboard in Resources */,
 				6F40A97B20AA723300C8ECA6 /* warble4k_pulse_ramp_0p45s_24bit.wav in Resources */,
 				6FB3820320A38E7D00AF59EE /* warble1k_ramp_1p2.wav in Resources */,
+				6FF3754620DAC73800D2A6C2 /* warble1k_pulse_ramp_0p45sX2_24bit.wav in Resources */,
 				6F8EFE86207807CC00FB6AFD /* Assets.xcassets in Resources */,
 				6F8EFE84207807CA00FB6AFD /* Main.storyboard in Resources */,
+				6FF3754C20DACA8500D2A6C2 /* warble3k_pulse_ramp_0p45sX2_24bit.wav in Resources */,
 				6F40A97D20AA723300C8ECA6 /* warble1k_pulse_ramp_0p45s_24bit.wav in Resources */,
+				6FF3754B20DACA8500D2A6C2 /* warble2k_pulse_ramp_0p45sX2_24bit.wav in Resources */,
 				6F40A96D20AA53B900C8ECA6 /* 4k_sine_m6db_ramp_24bit.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

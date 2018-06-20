@@ -30,7 +30,7 @@ class InstructViewController: UIViewController {
 
         start()
         
-        let url = Bundle.main.url(forResource: "warble1k_pulse_ramp_0p45s_24bit", withExtension: "wav")
+        let url = Bundle.main.url(forResource: "warble1k_pulse_ramp_0p45sX2_24bit", withExtension: "wav")
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url!)
@@ -49,7 +49,7 @@ class InstructViewController: UIViewController {
     @IBAction func pracPractButPush(_ sender: UIButton) {
         button.isEnabled = true
         practiceButton.isEnabled = false
-        timer = Timer.scheduledTimer(timeInterval: 0.55, target: self, selector: #selector(adaptation), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(adaptation), userInfo: nil, repeats: true)
         timerOn = true
     }
     

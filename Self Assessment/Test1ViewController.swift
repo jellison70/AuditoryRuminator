@@ -27,7 +27,7 @@ class Test1ViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             // Code to push/present new view controller
         
-        let url = Bundle.main.url(forResource: "warble2k_pulse_ramp_0p45s_24bit", withExtension: "wav")
+        let url = Bundle.main.url(forResource: "warble2k_pulse_ramp_0p45sX2_24bit", withExtension: "wav")
         
         do {
             self.audioPlayer = try AVAudioPlayer(contentsOf: url!)
@@ -41,7 +41,7 @@ class Test1ViewController: UIViewController {
             print(error.debugDescription)
         }
         
-            self.timer = Timer.scheduledTimer(timeInterval: 0.55, target: self, selector: #selector(self.adaptation), userInfo: nil, repeats: true)
+            self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.adaptation), userInfo: nil, repeats: true)
         }
     }
     
